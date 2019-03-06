@@ -1,5 +1,17 @@
-p {
-    color:  red;
-font-size: 24px;
-text-transform: uppercase;     
-}
+html {box-sizing: border-box;}
+*,
+*::before,
+*::after {box-sizing: inherit;}
+img {display:block;max-width: 100%;height: auto;}
+.container {width: 900px;margin: 0 auto;font-family: 'Roboto', sans-serif;width: 420;display:inline-block;margin-right:30px;}
+.links:hover, .links:focus {color: #03a9f4;}
+.links {color: #626262;list-style-type: none;}
+.hide {visibility:hidden; }
+.text {font-size: 30px;}
+.maintext {font-size: 14px;}
+.menu li {display: inline-block;}
+.menu {font-size: 14px;margin: 0; padding: 0;list-style:none ;display: inline-block;text-align: right;
+vertical-align: middle; width:570; }
+.menu li:not(:last-child) {margin-right: 125px;}
+.content-list {list-style:0;padding:0;margin:0;}
+.content-list-item {display:inline-block;width: 420px;}

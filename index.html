@@ -1,79 +1,116 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
-
 <body>
- <header style="color:#76399f"> <nav> <ul>
-        <li><a href="#Lifestyle">Lifestyle</a></li>
-        <li><a href="#Photodiary">Photodiary</a></li>
-        <li><a href="#Music">Music</a></li>
-        <li><a href="#Travel">Travel</a></li>
-    </ul> </nav> </header>
-    <main>
-    <section>
-        <h1>1</h1>
-        <article id="Lifestyle">
-        <img src="img/1.jpg" alt="some pic">
-   <p>Lifestyle</p>
-   <h2>More then just a music festival</h2>
-   <p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
-      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-      laboris nisi ut aliquip ex ea Lorem ipsum dolor sit, amet consectetur 
-      adipisicing elit. Ipsa iusto aliquid explicabo corporis suscipit, ab vel aperiam dignissimos 
-      recusandae ut? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis a excepturi 
-      eligendi perferendis fugiat, eveniet voluptatem doloremque eaque mollitia 
-      molestiae dolore tenetur, nostrum quo, quod aspernatur cumque numquam laudantium nihil. 
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, iusto.</p>
-    </article>
- <article id="Photodiary">  
-    <img src="img/2.jpg" alt="some pic">
-      <p>Photodiary</p>
-      <h2>Life testes better with cofee</h2>
-    <p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
-        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-        laboris nisi ut aliquip ex ea Lorem ipsum dolor sit, amet consectetur 
-        adipisicing elit. Ipsa iusto aliquid explicabo corporis suscipit, ab vel aperiam dignissimos 
-        recusandae ut? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis a excepturi 
-        eligendi perferendis fugiat, eveniet voluptatem doloremque eaque mollitia 
-        molestiae dolore tenetur, nostrum quo, quod aspernatur cumque numquam laudantium nihil. 
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, iusto.</p>
-    </article>
-<article id="Music">
-        <img src="img/3.jpg" alt="some pic">
-        <p>music</p>
-        <h2>American dream</h2>
-        <p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
-                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                laboris nisi ut aliquip ex ea Lorem ipsum dolor sit, amet consectetur 
-                adipisicing elit. Ipsa iusto aliquid explicabo corporis suscipit, ab vel aperiam dignissimos 
-                recusandae ut? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis a excepturi 
-                eligendi perferendis fugiat, eveniet voluptatem doloremque eaque mollitia 
-                molestiae dolore tenetur, nostrum quo, quod aspernatur cumque numquam laudantium nihil. 
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, iusto.</p>
+    <header class="menu">
+        <nav> <ul>
+        <li class="links">LIFESTYLE</li>
+        <li class="links">PHOTOGRAPHY</li>
+        <li class="links">MUSIC</li>
+        <li class="links">TRAVEL</li></ul> </nav>
+        </header>
+    <main class="container">
+            <ul class="content-list"> 
+                <li class="content-list-item"> 
+        <section class="life">
+            <h1 class="hide">1</h1>
+             <img class="content-list-image" src="img/1.jpg" alt="1st image" width="420" height="279">
+            <article>
+            <p>LIFESTYLE</p>
+            <h2 class="text">More then just a music festival</h2>
+            <p class="maintext">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Enim quibusdam maxime natus asperiores doloremque quisquam adipisci possimus quas quo, corrupti quidem error facere, 
+                reiciendis dolorem molestiae, fugit ducimus excepturi cumque.</p>
+            
             </article>
-       <article id="Travel">
-                <img src="img/4.jpg" alt="some pic">
-                <p>Travel</p>
-                <h2>A day exploring the Alps</h2>
-                <p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                        laboris nisi ut aliquip ex ea Lorem ipsum dolor sit, amet consectetur 
-                        adipisicing elit. Ipsa iusto aliquid explicabo corporis suscipit, ab vel aperiam dignissimos 
-                        recusandae ut? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis a excepturi 
-                        eligendi perferendis fugiat, eveniet voluptatem doloremque eaque mollitia 
-                        molestiae dolore tenetur, nostrum quo, quod aspernatur cumque numquam laudantium nihil. 
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, iusto.</p>
+        </section>
+    </li>
+
+    <li class="content-list-item"> 
+            <section class="foto">
+                    <h1 class="hide">2</h1>
+                    <article>  
+                    <img class="content-list-image" src="img/2.jpg" alt="2st image" width="420" height="279">
+                    <p>PHOTOGRAPHY</p>
+                    
+                   
+                    <h2 class="text">More then just a music festival</h2>
+                    <p class="maintext">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Enim quibusdam maxime natus asperiores doloremque quisquam adipisci possimus quas quo, corrupti quidem error facere, 
+                        reiciendis dolorem molestiae, fugit ducimus excepturi cumque.</p>
+                    
                     </article>
-                    <button> load more </button>
-                </section>
-                   </main>
-                        
+                    </section>
+                    </li>
+                    <li class="content-list-item"> 
+                    <section class="music">
+                            <h1 class="hide">3</h1>
+                            <article>  
+                            <img class="content-list-image" src="img/3.jpg" alt="1st image" width="420" height="279">
+                            <p>MUSIC</p>
+                            <h2 class="text">More then just a music festival</h2>
+                            <p class="maintext">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                Enim quibusdam maxime natus asperiores doloremque quisquam adipisci possimus quas quo, corrupti quidem error facere, 
+                                reiciendis dolorem molestiae, fugit ducimus excepturi cumque.</p>
+                            </article>
+                            </section>
+                        </li>
+                            <li class="content-list-item"> 
+                            <section class="travel">
+                                    <h1 class="hide">4</h1>
+                                    <article>  
+                                    <img class="content-list-image" src="img/4.jpg" alt="1st image" width="420" height="279">
+                                    <p>TRAVEL</p>
+                                    
+                                   
+                                    <h2 class="text">More then just a music festival</h2>
+                                    <p class="maintext">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                        Enim quibusdam maxime natus asperiores doloremque quisquam adipisci possimus quas quo, corrupti quidem error facere, 
+                                        reiciendis dolorem molestiae, fugit ducimus excepturi cumque.</p>
+                                    
+                                    </article>
+                                    </section>
+                                    </li>
+                                    <li class="content-list-item"> 
+                                    <section class="song">
+                                            <h1 class="hide">5</h1>
+                                            <article>  
+                                            <img class="content-list-image" src="img/5.jpg" alt="1st image" width="420" height="279">
+                                            <p>SONG</p>
+                                            <h2 class="text">More then just a music festival</h2>
+                                            <p class="maintext">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                                Enim quibusdam maxime natus asperiores doloremque quisquam adipisci possimus quas quo, corrupti quidem error facere, 
+                                                reiciendis dolorem molestiae, fugit ducimus excepturi cumque.</p>
+                                            </article>
+                                            </section>
+                                            </li>
+                                            <li class="content-list-item"> 
+                                            <section class="winter">
+                                                    <h1 class="hide">6</h1>
+                                                    <article>  
+                                                    <img class="content-list-image" src="img/6.jpg" alt="1st image" width="420" height="279">
+                                                    <p>WINTER</p>
+                                                    <h2 class="text">More then just a music festival</h2>
+                                                    <p class="maintext">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                                        Enim quibusdam maxime natus asperiores doloremque quisquam adipisci possimus quas quo, corrupti quidem error facere, 
+                                                        reiciendis dolorem molestiae, fugit ducimus excepturi cumque.</p>
+                                                    </article>
+                                                    </section>
+                                                    </li>
+                                                </ul>
+                                    
 
-    </body>
+
+
+    </main>
+    <button class="frame">Load more</button>
+    
+</body>
 </html>
-
