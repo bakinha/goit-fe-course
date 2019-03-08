@@ -63,11 +63,12 @@ img {
     display: inline-block;
     margin-right: 60px;
     width: 420px;
-    margin-bottom: 130px;
+    margin-bottom: 0px;
 }
 
 .img-item:nth-child(-n +2) {
-    margin-bottom: 0;
+    margin-bottom:0;
+    
 }
 
 .img-item:nth-child(2n) {
