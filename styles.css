@@ -25,12 +25,11 @@ img {
     margin: 0;
     padding: 0;
     text-align: center;
-
-
 }
 
 .link {
     font-size: 14px;
+    display: block;
 }
 
 .site-nav a:hover {
@@ -56,19 +55,18 @@ img {
     margin: 0;
     padding: 0;
     font-size: 0;
-    margin-bottom:60px; 
+    margin-bottom: 60px;
 }
 
 .img-item {
     display: inline-block;
     margin-right: 60px;
     width: 420px;
-    margin-bottom: 0px;
+    margin-bottom: 60px;
 }
 
 .img-item:nth-child(-n +2) {
-    margin-bottom:0;
-    
+    margin-bottom: 0;
 }
 
 .img-item:nth-child(2n) {
@@ -111,7 +109,7 @@ input[type="radio"].visually-hidden {
 .description {
     margin: 0;
     font-size: 14px;
-    }
+}
 
 .page-nav {
     padding: 75px 0;
