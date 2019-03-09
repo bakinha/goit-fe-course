@@ -65,7 +65,7 @@ img {
     margin-bottom: 60px;
 }
 
-.img-item:nth-child(-n +2) {
+.img-item:nth-last-child(-n +2) {
     margin-bottom: 0;
 }
 
