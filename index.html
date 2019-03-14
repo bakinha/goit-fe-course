@@ -6,102 +6,162 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="normalize.css">
-    <link href="https://fonts.googleapis.com/css?family=RobotoRoboto:400,400i,500,500i,700,700i" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 
-<body>
-    <div class="container">
-        <header class="head">
-            <nav class="page-nav">
-                <ul class="site-nav">
-                    <li><a class="link" href="#">Lifestyle</a></li>
-                    <li><a class="link" href="#">Photography</a></li>
-                    <li><a class="link" href="#">Music</a> </li>
-                    <li><a class="link" href="#">Travel</a> </li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <section class="content">
-                <h2 class="visually-hidden">111</h2>
-                <ul class="content-list">
-                    <li class="img-item">
-                        <article>
-                            <img class="image" src="img/1.jpg" alt="some pic" width="420" height="280">
-                            <p class="item">Lifestyle</p>
-                            <h2 class="main-text">More then just a music festival</h2>
-                            <p class="description">Lorem ipsum dolor,
-                                sit amet consectetur adipisicing elit. Laboriosam eveniet provident
-                                temporibus molestiae hic sunt
-                                assumenda voluptatem necessitatibus ipsa praesentium?</p>
-                        </article>
-                    </li>
-
-                    <li class="img-item">
-                        <article>
-                            <img class="image" src="img/2.jpg" alt="some pic" width="420" height="280">
-                            <p class="item">Lifestyle</p>
-                            <h2 class="main-text">More then just a music festival</h2>
-                            <p class="description">Lorem ipsum dolor,
-                                sit amet consectetur adipisicing elit. Laboriosam eveniet provident
-                                temporibus molestiae hic sunt
-                                assumenda voluptatem necessitatibus ipsa praesentium?</p>
-                        </article>
-                    </li>
-                    <li class="img-item">
-                        <article>
-                            <img class="image" src="img/3.jpg" alt="some pic" width="420" height="280">
-                            <p class="item">Lifestyle</p>
-                            <h2 class="main-text">More then just a music festival</h2>
-                            <p class="description">Lorem ipsum dolor,
-                                sit amet consectetur adipisicing elit. Laboriosam eveniet provident
-                                temporibus molestiae hic sunt
-                                assumenda voluptatem necessitatibus ipsa praesentium?</p>
-                        </article>
-                    </li>
-                    <li class="img-item">
-                        <article>
-                            <img class="image" src="img/4.jpg" alt="some pic" width="420" height="280">
-                            <p class="item">Lifestyle</p>
-                            <h2 class="main-text">More then just a music festival</h2>
-                            <p class="description">Lorem ipsum dolor,
-                                sit amet consectetur adipisicing elit. Laboriosam eveniet provident
-                                temporibus molestiae hic sunt
-                                assumenda voluptatem necessitatibus ipsa praesentium?</p>
-                        </article>
-                    </li>
-                    <li class="img-item">
-                        <article>
-                            <img class="image" src="img/5.jpg" alt="some pic" width="420" height="280">
-                            <p class="item">Lifestyle</p>
-                            <h2 class="main-text">More then just a music festival</h2>
-                            <p class="description">Lorem ipsum dolor,
-                                sit amet consectetur adipisicing elit. Laboriosam eveniet provident
-                                temporibus molestiae hic sunt
-                                assumenda voluptatem necessitatibus ipsa praesentium?</p>
-                        </article>
-                    </li>
-                    <li class="img-item">
-                        <article>
-                            <img class="image" src="img/6.jpg" alt="some pic" width="420" height="280">
-                            <p class="item">Lifestyle</p>
-                            <h2 class="main-text">More then just a music festival</h2>
-                            <p class="description">Lorem ipsum dolor,
-                                sit amet consectetur adipisicing elit. Laboriosam eveniet provident
-                                temporibus molestiae hic sunt
-                                assumenda voluptatem necessitatibus ipsa praesentium?</p>
-                        </article>
-                    </li>
-                </ul>
-                <button class="button">Load more</button>
-            </section>
+<body class="body">
 
 
+    <header class="page-header container">
+        <a href="#" class="site-logo">mart</a>
+        <nav class="page-nav">
 
-        </main>
-    </div>
+            <ul class="nav clearfix">
+
+                <li class="link"><a class="tool" href="#">about us</a></li>
+                <li class="link"><a class="tool" href="#">page</a></li>
+                <li class="link"><a class="tool" href="#">shop</a></li>
+                <li class="link"><a class="tool" href="#">blog</a></li>
+                <li class="link"><a class="tool" href="#">home</a></li>
+            </ul>
+        </nav>
+
+
+    </header>
+
+    <main class="wrapper">
+
+        <section class="section-first">
+
+
+            <div class="container slide-wrapper">
+                <button class="button left-button">&lt;</button>
+                <button class="button right-button">&gt;</button>
+
+                <div class="slide-content">
+
+                    <h2 class="head">Affordable Paris Tours</h2>
+                    <p class="tours">City tours/ Tour Tickets/ Tour Guides</p>
+
+                </div>
+            </div>
+        </section>
+        <section class="new-collection">
+            <h2 class="new-collection-list">New collection</h2>
+            <ul class="collection-list container clearfix">
+                <li class="collection-list-item">
+                    <div class="box">
+                        <div class="buttons-box">
+                            <button class="heart">
+
+                            </button>
+                            <button class="arrow">
+
+
+                            </button>
+                            <button class="clock">
+
+                            </button>
+                            <button class="market">
+
+                            </button>
+                        </div>
+                    </div>
+
+                    <img src="img/1.jpg" alt="pic" width="255" height="255">
+                    <div class="collection-item clearfix">
+                        <h3 class="collection-name">Blue tshirt</h3>
+                        <p class="price">&#36;26</p>
+                    </div>
+                </li>
+                <li class="collection-list-item">
+                    <div class="box">
+                        <div class="buttons-box">
+                            <button class="heart">
+
+                            </button>
+                            <button class="arrow">
+
+
+                            </button>
+                            <button class="clock">
+
+                            </button>
+                            <button class="market">
+
+                            </button>
+                        </div>
+                    </div>
+                    <img src="img/2.jpg" alt="pic" width="255" height="255">
+                    <div class="collection-item clearfix">
+                        <h3 class="collection-name">Blue tshirt</h3>
+                        <p class="price">&#36;26</p>
+                    </div>
+                </li>
+                <li class="collection-list-item">
+                    <div class="box">
+                        <div class="buttons-box">
+                            <button class="heart">
+
+                            </button>
+                            <button class="arrow">
+
+
+                            </button>
+                            <button class="clock">
+
+                            </button>
+                            <button class="market">
+
+                            </button>
+                        </div>
+                    </div>
+                    <img src="img/3.jpg" alt="pic" width="255" height="255">
+                    <div class="collection-item clearfix">
+                        <h3 class="collection-name">Blue tshirt</h3>
+                        <p class="price">&#36;26</p>
+                    </div>
+                </li>
+                <li class="collection-list-item">
+                    <div class="box">
+                        <div class="buttons-box">
+                            <button class="heart">
+
+                            </button>
+                            <button class="arrow">
+
+
+                            </button>
+                            <button class="clock">
+
+                            </button>
+                            <button class="market">
+
+                            </button>
+
+                        </div>
+                    </div>
+                    <img src="img/4.jpg" alt="pic" width="255" height="255">
+                    <div class="collection-item clearfix">
+                        <h3 class="collection-name">Blue tshirt</h3>
+                        <p class="price">&#36;26</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+
+
+
+
+    </main>
+    <footer class="page-footer">
+        <p class="footer-text">All rights reserved &copy; Dokan | Designed</p>
+        <span>ThemenGraph</span>
+    </footer>
 
 </body>
 
