@@ -28,14 +28,15 @@ body {
 .container {
     max-width: 1110px;
     margin: 0 auto;
-    
+
 }
 
 .page-header {
-    max-width: 100%;
-    padding-top:45px;
-    bottom:45px;
+
+    padding-top: 45px;
+    padding-bottom: 45px;
 }
+
 
 
 .site-logo {
@@ -44,7 +45,7 @@ body {
     font-size: 30px;
     text-transform: uppercase;
     text-decoration: none;
-    float:left;
+    float: left;
 
 }
 
@@ -55,7 +56,7 @@ body {
 
 
 .page-nav {
-    float:right;
+    float: right;
 }
 
 .nav {}
@@ -76,27 +77,25 @@ body {
     color: black;
     float: left;
     margin-right: 45px;
-    font-size: 48px;}
-
-    .link:last-child{
-        margin-right: 0;
-        }
-
-
-
-
-.wrapper {
-    
-
+    font-size: 48px;
 }
+
+.link:last-child {
+    margin-right: 0;
+}
+
+
+
+
+.wrapper {}
 
 .tool {
     text-decoration: none;
     font-size: 14px;
-    display:block;
+    display: block;
     font-family: 'Open Sans', sans-serif;
-    font-weight:bold;
-    color:#0f0101;
+    font-weight: bold;
+    color: #0f0101;
     text-transform: uppercase;
 }
 
@@ -106,13 +105,13 @@ body {
 }
 
 .section-first {
-    background-image: linear-gradient(to top, #000000 0%, rgba(0, 0, 0, .3) 20%),url(../img/girls.jpg);
+    background-image: linear-gradient(to top, #000000 0%, rgba(0, 0, 0, .3) 20%), url(../img/girls.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
     height: 600px;
-    
+
 
 }
 
@@ -154,13 +153,13 @@ body {
     font-size: 50px;
     background-color: rgba(26, 188, 156, 0);
     border: 0;
-    top:50%;
-    transform:translateY(-50%);
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .left-button {
     left: 0%;
-    
+
 
 }
 
@@ -191,22 +190,22 @@ body {
 .section-first {}
 
 .slide-content {
-    display:block;
-    color:white;
+    display: block;
+    color: white;
     text-transform: uppercase;
-    width:700px;
-    margin:0 auto;
+    width: 700px;
+    margin: 0 auto;
     position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .new-collection {
     vertical-align: middle;
     padding: 0;
     padding-bottom: 36px;
-    padding-top:100px;
+    padding-top: 100px;
 
 }
 
@@ -230,7 +229,7 @@ body {
     display: block;
     margin: 0 auto;
     background-color: #1abc9c;
-   
+
 
 
 
@@ -312,7 +311,7 @@ body {
     width: 235px;
     height: 260px;
     background-color: rgba(0, 0, 0, 0.549);
-    opacity:0;
+    opacity: 0;
 
 }
 
@@ -374,9 +373,9 @@ body {
     background-position: 10px;
     background-repeat: no-repeat;
     background-image: url(../icons/market.png);
-    text-transform:uppercase;
-    font-size:14px;
-    
+    text-transform: uppercase;
+    font-size: 14px;
+
 }
 
 .collection-list-item:hover .collection-name {
@@ -388,7 +387,7 @@ body {
 }
 
 .collection-list-item:hover .box {
-    opacity:1;
+    opacity: 1;
 }
 
 .collection-list-item:hover .market {
