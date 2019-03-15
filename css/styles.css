@@ -92,10 +92,12 @@ body {
 
 .tool {
     text-decoration: none;
-    font-size: 30px;
+    font-size: 14px;
     display:block;
     font-family: 'Open Sans', sans-serif;
     font-weight:bold;
+    color:#0f0101;
+    text-transform: uppercase;
 }
 
 
@@ -115,11 +117,8 @@ body {
 }
 
 .slide-wrapper {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
+    position: relative;
+    height: 600px;
 }
 
 .slide-content {
@@ -155,10 +154,13 @@ body {
     font-size: 50px;
     background-color: rgba(26, 188, 156, 0);
     border: 0;
+    top:50%;
+    transform:translateY(-50%);
 }
 
 .left-button {
     left: 0%;
+    
 
 }
 
@@ -188,7 +190,17 @@ body {
 
 .section-first {}
 
-.slide-content {}
+.slide-content {
+    display:block;
+    color:white;
+    text-transform: uppercase;
+    width:700px;
+    margin:0 auto;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
 
 .new-collection {
     vertical-align: middle;
@@ -299,7 +311,7 @@ body {
     left: 11px;
     width: 235px;
     height: 260px;
-    background-color: rgba(115, 115, 115, 0);
+    background-color: rgba(0, 0, 0, 0.549);
     opacity:0;
 
 }
@@ -364,7 +376,6 @@ body {
     background-image: url(../icons/market.png);
     text-transform:uppercase;
     font-size:14px;
-    text-align:center;
     
 }
 
