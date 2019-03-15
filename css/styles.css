@@ -174,18 +174,6 @@ body {
 
 
 
-
-
-.site-logo {
-    margin: 35px 565px 15px 85px;
-    display: block;
-}
-
-.site-logo::first-letter {
-    color: #1abc9c;
-    font-weight: bold;
-}
-
 .section-first {}
 
 .slide-content {
