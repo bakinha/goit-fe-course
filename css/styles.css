@@ -60,9 +60,9 @@ img {
 }
 
 .site-logo {
-    float:left;
+    float: left;
     display: block;
-    margin-top:30px;
+    margin-top: 30px;
 }
 
 .site-logo::first-letter {
@@ -132,7 +132,7 @@ img {
 .product-wrap {
     margin-right: 20px;
     float: left;
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
 
 
@@ -244,16 +244,21 @@ li.product-wrap:nth-child (4n +4) {
     display: table;
 
 }
+
 .news-header {
-    font-size:18px;
-    color:#747272;
-}
-.news-article {
-    font-size:14px;
-    color:#555252;
+    font-size: 18px;
+    color: #747272;
 }
 
-.button {width:160px;height:55px; 
-background-color:#4ec6ab;
-cursor:pointer;
-color:white; }
+.news-article {
+    font-size: 14px;
+    color: #555252;
+}
+
+.button {
+    width: 160px;
+    height: 55px;
+    background-color: #4ec6ab;
+    cursor: pointer;
+    color: white;
+}
