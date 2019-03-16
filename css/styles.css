@@ -6,8 +6,6 @@ html {
 *::before,
 *::after {
     box-sizing: inherit;
-    padding: 0;
-    margin: 0;
 }
 
 img {
@@ -23,29 +21,48 @@ body {
     line-height: 21px;
 }
 
-
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 
 .container {
-    max-width: 1110px;
+    max-width: 1170px;
     margin: 0 auto;
+    list-style-type: none;
+
 
 }
 
-.page-header {
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 
-    padding-top: 45px;
-    padding-bottom: 45px;
 }
 
 
+
+.link {
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #1abc9c;
+}
+
+.head {
+    font-size: 30px;
+    text-transform: uppercase
+}
 
 .site-logo {
-    font-size: 30px;
-    text-transform: uppercase;
-    text-decoration: none;
-    float: left;
-    color:#626262;
-
+    float:left;
+    display: block;
+    margin-top:30px;
 }
 
 .site-logo::first-letter {
@@ -54,364 +71,189 @@ body {
 }
 
 
-.page-nav {
+.features {
+    max-width: 1110px;
+
+}
+
+
+.navigation {
+
     float: right;
 }
 
-.nav {}
 
-
-
-
-
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-
-}
-
-.link {
-    list-style-type: none;
-    color: black;
-    float: left;
-    margin-right: 45px;
-    font-size: 48px;
-}
-
-.link:last-child {
-    margin-right: 0;
-}
-
-
-
-
-.wrapper {}
-
-.tool {
-    text-decoration: none;
-    font-size: 14px;
-    display: block;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    color: #0f0101;
-    text-transform: uppercase;
-}
-
-
-.tool:hover {
-    color: #1abc9c;
-}
-
-.section-first {
-    background-image: linear-gradient(to top, #000000 0%, rgba(0, 0, 0, .3) 20%), url(../img/girls.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    height: 600px;
-
-
-}
-
-.slide-wrapper {
-    position: relative;
-    height: 600px;
-}
-
-.slide-content {
-    display: block;
-    color: white;
-    text-transform: uppercase;
-    width: 700px;
-    margin: 0 auto;
-
-
-
-
-}
-
-.head {
-    font-size: 50px;
-    line-height: 35px;
-    margin-bottom: 35px;
-
-}
-
-.tours {
-    font-size: 25px;
-
-
-}
-
-.button {
-    width: 100px;
-    height: 105px;
-    color: white;
-    position: absolute;
-    font-size: 50px;
-    background-color: rgba(26, 188, 156, 0);
-    border: 0;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.left-button {
-    left: 0%;
-
-
-}
-
-.right-button {
-    right: 0%;
-}
-
-.button:hover {
-    font-weight: bold;
-    background-color: rgba(26, 188, 156, 1);
-}
-
-
-
-
-.section-first {}
-
-.slide-content {
-    display: block;
-    color: white;
-    text-transform: uppercase;
-    width: 700px;
-    margin: 0 auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.new-collection {
-    vertical-align: middle;
+.featured-prod {
+    font-size: 0;
     padding: 0;
-    padding-bottom: 36px;
-    padding-top: 100px;
+    float: right;
+
+
 
 }
 
-.new-collection-list {
+.featured-prod li {
+    float: left;
+    list-style-type: none;
+    height: 15px;
+    margin: 30px;
+    font-size: 14px;
+
+}
+
+.main-content-list {
+    font-size: 48px;
     text-align: center;
-    font-size: 40px;
-    text-transform: uppercase;
-    line-height: 250px;
-    color: #555252;
-    margin: 0;
+    color: #515151;
+    margin: 100px;
     line-height: 76px;
-    margin-bottom: 80px;
 }
 
-.new-collection-list::after {
+.main-content-list::after {
     content: "";
     width: 165px;
     height: 8px;
-    border: solid 2px;
-    border-color: #1abc9c;
-    display: block;
+    display: table;
+    background-color: green;
     margin: 0 auto;
-    background-color: #1abc9c;
-
-
-
-
-
 }
 
-
-
-
-
-
-
-
-
-.collection-list {
-    list-style: none;
-
-}
-
-.collection-list-item {
-    margin-right: 30px;
-    float: left;
+.product-wrapper {
     display: block;
-    position: relative;
+    height: auto;
+    list-style-type: none;
+    font-size: 0;
+    padding-left: 0;
+    margin-top: 0;
 
 
 }
 
-.collection-list-item:nth-of-type(4n) {
-    margin-right: 0;
-}
-
-.collection-item {
-    font-size: 18px;
-    text-transform: uppercase;
-    width: 255px;
-
-
-}
-
-.collection-name {
-    font-size: 18px;
-    width: 200px;
-    height: 40px;
+.product-wrap {
+    margin-right: 20px;
     float: left;
-    background-color: #323232;
-    text-align: left;
-    color: white;
-    font-size: 18px;
-    line-height: 40px;
-    padding-left: 15px;
-
-
-
-
-
+    margin-bottom:20px;
 }
+
+
+
+
+
+
 
 .price {
     font-size: 18px;
+    width: 255px;
+
+}
+
+
+.price:hover {
+    background-color: green;
+}
+
+li.product-wrap:nth-child (4n +4) {
+    margin-right: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+.item-name {
+    float: left;
+    width: 200px;
+    height: 40px;
+    text-align: left;
+    line-height: 40px;
+    background-color: #323232;
+    color: white;
+    margin: 0 auto;
+    padding-left: 15px;
+}
+
+
+.price:hover {
+    background-color: #1abc9c;
+}
+
+.features_list:hover .item-name {
+    background-color: #1abc9c;
+}
+
+.features_list:hover .usd {
+    background-color: #7fd9c7;
+}
+
+
+.features_list img {
+    height: 282px;
+    object-fit: cover;
+}
+
+
+
+
+.usd {
+    float: right;
     width: 55px;
     height: 40px;
-    float: right;
-    background-color: #8c8c8c;
-    text-align: middle;
     line-height: 40px;
+    text-align: middle;
+    background-color: #8c8c8c;
     color: white;
+    margin: 0 auto;
     padding-left: 15px;
-
-
-
 }
 
-.box {
-    position: absolute;
-    z-index: 1;
-    top: 10px;
-    left: 11px;
-    width: 235px;
-    height: 260px;
-    background-color: rgba(0, 0, 0, 0.549);
-    opacity: 0;
-
-}
-
-
-
-
-
-.buttons-box {
-    position: absolute;
-    left: 0;
-    width: 100%;
-    height: 105px;
-    z-index: 1;
-    text-align: center;
-    top: 33%;
-
-
-}
-
-.heart {
-    width: 60px;
-    height: 60px;
-    border: solid 1px;
-    color: white;
-    background-color: transparent;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url(../icons/heart.png)
-}
-
-.arrow {
-    width: 60px;
-    height: 60px;
-    border: solid 1px;
-    color: white;
-    background-color: transparent;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url(../icons/arrow.png)
-}
-
-.clock {
-    width: 60px;
-    height: 60px;
-    border: solid 1px;
-    color: white;
-    background-color: transparent;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url(../icons/clock.png)
-}
-
-.market {
-    width: 186px;
-    height: 60px;
-    border: solid 1px;
-    color: white;
-    background-color: transparent;
-    background-position: 10px;
-    background-repeat: no-repeat;
-    background-image: url(../icons/market.png);
-    text-transform: uppercase;
-    font-size: 14px;
-
-}
-
-.collection-list-item:hover .collection-name {
-    background: #1abc9c;
-}
-
-.collection-list-item:hover .price {
-    background: #7fd9c7;
-}
-
-.collection-list-item:hover .box {
-    opacity: 1;
-}
-
-.collection-list-item:hover .market {
-    background-color: #323232;
-}
-
-.heart:hover {
-    background-color: #1abc9c;
-}
-
-
-.arrow:hover {
-    background-color: #1abc9c;
-}
-
-.clock:hover {
-    background-color: #1abc9c;
-}
-
-.market:hover {
-    background-color: #323232;
-}
-
-.page-footer {
-    background-color: #323232;
-    text-align: center;
-    font-size: 16px;
-    color: #fffff;
-    padding: 40px 0;
-    top: 10%;
-}
-
-.footer-text {
+.product-wrapper-second {
+    list-style-type: none;
+    float: left;
     margin: 0;
+    padding: 0;
 }
 
-span {
-    font-size: 18px;
-    color: #46bfa9;
+.product-news {
+    float: left;
+    margin-right: 30px;
 }
+
+.features_list2 img {
+    height: 282px;
+}
+
+.product-news:nth-of-type(3n) {
+    margin-right: 0px;
+}
+
+.news {
+    width: 280px;
+}
+
+.news-header::after {
+    content: "";
+    width: 40%;
+    height: 5px;
+    ;
+    background-color: green;
+    display: table;
+
+}
+.news-header {
+    font-size:18px;
+    color:#747272;
+}
+.news-article {
+    font-size:14px;
+    color:#555252;
+}
+
+.button {width:160px;height:55px; 
+background-color:#4ec6ab;
+cursor:pointer;
+color:white; }
