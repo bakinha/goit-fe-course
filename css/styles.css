@@ -70,6 +70,8 @@ img {
 .site-logo {
     float: left;
     display: block;
+    color:#555252;
+    text-decoration: none;
 
 }
 
