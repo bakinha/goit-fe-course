@@ -27,10 +27,15 @@ img {
     height: auto;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .container {
-    max-width: 1170px;
+    max-width: 1110px;
     margin: 0 auto;
-    list-style-type: none;
+
 
 
 }
@@ -48,6 +53,7 @@ img {
     list-style-type: none;
     color: black;
     text-decoration: none;
+    display: block;
 }
 
 .link:hover {
@@ -56,13 +62,15 @@ img {
 
 .head {
     font-size: 30px;
-    text-transform: uppercase
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .site-logo {
     float: left;
     display: block;
-    margin-top: 30px;
+
 }
 
 .site-logo::first-letter {
@@ -84,9 +92,11 @@ img {
 
 
 .featured-prod {
-    font-size: 0;
+
     padding: 0;
     float: right;
+    margin: 0;
+    margin-bottom:90px;
 
 
 
@@ -95,18 +105,26 @@ img {
 .featured-prod li {
     float: left;
     list-style-type: none;
-    height: 15px;
-    margin: 30px;
     font-size: 14px;
 
+
 }
+
+.featured-prod li:not(:last-child) {
+    margin-right: 60px;
+}
+
+
+
 
 .main-content-list {
     font-size: 48px;
     text-align: center;
     color: #515151;
-    margin: 100px;
+    margin: 0;
     line-height: 76px;
+
+
 }
 
 .main-content-list::after {
@@ -114,7 +132,7 @@ img {
     width: 165px;
     height: 8px;
     display: table;
-    background-color: green;
+    background-color: #4ec6ab;
     margin: 0 auto;
 }
 
@@ -124,7 +142,8 @@ img {
     list-style-type: none;
     font-size: 0;
     padding-left: 0;
-    margin-top: 0;
+    margin-top: 90px;
+    margin-bottom:90px;
 
 
 }
@@ -216,31 +235,36 @@ li.product-wrap:nth-child (4n +4) {
     float: left;
     margin: 0;
     padding: 0;
-}
+    margin-top:80px;
+    width:1110px;
+    display:block;
+    }
 
 .product-news {
     float: left;
     margin-right: 30px;
+    width: 340px;
+
+    
 }
 
-.features_list2 img {
-    height: 282px;
-}
+.product-news img {height: 282px;
+width:350px;}
+
+
 
 .product-news:nth-of-type(3n) {
     margin-right: 0px;
 }
 
-.news {
-    width: 280px;
-}
+
 
 .news-header::after {
     content: "";
     width: 40%;
     height: 5px;
     ;
-    background-color: green;
+    background-color:#4ec6ab;
     display: table;
 
 }
@@ -253,12 +277,17 @@ li.product-wrap:nth-child (4n +4) {
 .news-article {
     font-size: 14px;
     color: #555252;
+    margin-top:30px;
 }
 
 .button {
     width: 160px;
     height: 55px;
-    background-color: #4ec6ab;
+    background-color:#4ec6ab;
     cursor: pointer;
     color: white;
+    margin-bottom:80px;
+}
+.button:hover {
+    background-color:green;
 }
