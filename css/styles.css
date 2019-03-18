@@ -26,14 +26,11 @@ body {
 }
 
 .site-logo {
-    justify-content: flex-start;
-    flex-flow: row;
-    width: 90px;
-    height: 20px;
     color: #95e1d3;
     font-size: 30px;
     text-decoration: none;
-    margin-top:30px;
+    display: block;
+
 
 }
 
@@ -42,16 +39,24 @@ body {
     justify-content: space-between;
     flex-flow: row;
     width: 490px;
-    height: 10px;
-    margin-top:40px;
-    margin-bottom:130px;
+
 }
+
+.site_navigation_link:hover {
+    color: #f38181;
+}
+
+
 
 .page-head {
     display: flex;
     justify-content: space-between;
     font-size: 14px;
     margin-bottom: 70px;
+    line-height: 17px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
 
 
 }
@@ -60,6 +65,12 @@ body {
 .link a {
     text-decoration: none;
     color: #b0e9de;
+    display: block;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: color 0.2s linear;
+
 }
 
 .link a:hover::after {
@@ -173,6 +184,7 @@ body {
 
 .full-info {
     position: relative;
+    transition: transform 0.2s linear;
 }
 
 .buttons {
@@ -195,6 +207,7 @@ body {
     background-image: linear-gradient(to bottom, rgba(242, 149, 140, .6) 0%, rgba(241, 211, 138, .6) 100%);
     opacity: 1;
 
+
 }
 
 
@@ -210,13 +223,20 @@ body {
     flex-flow: row;
     opacity: 0;
     border: 1px;
+}
+
+.buttons a:not(:last-child) {
+    border-right: 1px #f38181 solid;
+}
 
 
 
 
-    position: absolute;
-    top: 0;
-    right: 0;
+
+
+position: absolute;
+top: 0;
+right: 0;
 
 
 
@@ -242,43 +262,7 @@ body {
 
 }
 
-.facebook {
-    background-color: #fce38a;
-    width: 55px;
-    height: 55px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-}
-
-.twitter {
-    background-color: #fce38a;
-    width: 55px;
-    height: 55px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.pinterest {
-    background-color: #fce38a;
-    width: 55px;
-    height: 55px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.instagram {
-    background-color: #fce38a;
-    width: 55px;
-    height: 55px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
 }
 
@@ -286,15 +270,39 @@ body {
     margin-bottom: 95px;
 }
 
-.page_footer {}
+.page_footer {
+    border-top: 96px;
+    margin-top: 96px;
+}
 
 .button {
     width: 150px;
     height: 40px;
-    background-color:#95e1d3;
+    background-color: #95e1d3;
     text-transform: uppercase;
     padding: 0;
 }
+
+.buttons a {
+    background-color: #fce38a;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color .2s linear;
+
+}
+
+.buttons a:hover {
+    background: #95e1d3;
+}
+
+
+
+
+
+
 
 .input {
     width: 230px;
@@ -307,7 +315,7 @@ body {
     display: flex;
     justify-content: space-between;
     flex-flow: row-reverse row;
-   
+
 }
 
 .outro {
@@ -318,42 +326,42 @@ body {
 
 .word {
     color: red;
-    margin-left:5px;
+    margin-left: 5px;
 }
 
 .form {
     display: flex;
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
 
 .name {
-    color:#333333;
-    font-size:14px;
-    margin-top:30px;
+    color: #333333;
+    font-size: 14px;
+    margin-top: 30px;
 }
 
 .profession {
-    color:#9f9f9f;
-    font-size:15px;
-    margin-top:18px;
+    color: #9f9f9f;
+    font-size: 15px;
+    margin-top: 18px;
 }
 
 .team_description {
     text-align: center;
-    margin-bottom:90px;
-    font-size:15px;
-    color:#9f9f9f;
+    margin-bottom: 90px;
+    font-size: 15px;
+    color: #9f9f9f;
 
 }
 
 .icon-discription {
-    font-size:15px;
-    color:#999999;
+    font-size: 15px;
+    color: #999999;
 }
 
 .icon-name {
-    font-size:14px;
-    color:#333333;
-    margin-bottom:20px;
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 20px;
 
 }
