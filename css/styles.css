@@ -41,6 +41,9 @@ body {
     width: 490px;
 
 }
+.site_navigation_link {
+    border:0;
+}
 
 .site_navigation_link:hover {
     color: #f38181;
@@ -104,7 +107,8 @@ body {
     text-transform: uppercase;
     text-align: center;
     line-height: 50px;
-    margin-bottom: 50px;
+    margin-bottom:90px;
+    
 }
 
 .about::after {
@@ -117,6 +121,7 @@ body {
     border: solid 2px;
     border-color: red;
     background-color: red;
+   
 
 }
 
@@ -134,7 +139,6 @@ body {
     justify-content: space-between;
     flex-flow: row nowrap;
     width: 335px;
-    height: 70px;
     margin-bottom: 100px;
 
 }
@@ -152,12 +156,13 @@ body {
 
 }
 
-.title-wrapper {}
+.title-wrapper {margin-bottom: 50px;}
 
 .specialists {
     display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
+    margin-bottom:86px;
 }
 
 .about-dude {
@@ -271,8 +276,10 @@ right: 0;
 }
 
 .page_footer {
-    border-top: 96px;
-    margin-top: 96px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+min-height: 95px;border-top: 1px solid #e5e5e5;
 }
 
 .button {
@@ -351,6 +358,7 @@ right: 0;
     margin-bottom: 90px;
     font-size: 15px;
     color: #9f9f9f;
+    margin-top:90px;
 
 }
 
