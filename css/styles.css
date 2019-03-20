@@ -220,9 +220,9 @@ body {
 
 .button2:hover {
     opacity: 1;
+}
 
-
- .icon {
+748 1440 .icon {
     width: 33px;
     height: 33px;
     background-position: center;
@@ -356,7 +356,7 @@ body {
         max-width:926px;
     }
 
-    .header {}
+    
 
         
 
