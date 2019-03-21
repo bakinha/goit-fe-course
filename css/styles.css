@@ -46,11 +46,6 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    width: 100%;
-}
 
 .wrapper_slider {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3),
@@ -60,6 +55,9 @@ body {
     height: 540px;
     background-position: center;
 }
+
+.row {display:flex;
+flex-wrap:row;}
 
 .site-logo {
     display: block;
@@ -91,9 +89,11 @@ body {
     max-width: 280px;
     line-height: 40px;
 }
-.nav {margin-top: 30px;
+.navs {
+    margin-top: 30px;
     margin-bottom:130px;
 }
+
 
 .header_button:hover {
     opacity: 1;
@@ -159,8 +159,7 @@ body {
 
 .partner_ul {
     display: flex;
-    justify-content: space-between;
-    flex-flow: column wrap;
+    justify-content: center;
     align-items: center;
 }
 
@@ -188,14 +187,13 @@ body {
 .partner {
     color: #333333;
     font-size: 14px;
-    
+    margin-bottom: 24px;
 }
 
 .name {
     font-size: 14px;
     color: black;
     margin-top: 24px;
-    
 }
 
 .location {
@@ -215,6 +213,7 @@ body {
     margin-top: 30px;
     display: block;
     margin: 0 auto;
+    margin-bottom: 58px;
     opacity: 0.5;
 }
 
@@ -222,7 +221,7 @@ body {
     opacity: 1;
 }
 
-748 1440 .icon {
+ .icon {
     width: 33px;
     height: 33px;
     background-position: center;
@@ -233,7 +232,11 @@ body {
     position: absolute;
 }
 
-
+.name {
+    margin-bottom: 21px;
+    color: #333333;
+    font-size: 14px;
+}
 
 .location {
     font-size: 14px;
@@ -298,7 +301,7 @@ body {
 .partner {
     border-radius: 100%;
 }
-
+/* 
 @media screen and (min-width: 768px) {
     .nav {
         margin: 0;
@@ -333,10 +336,6 @@ body {
         height: 40px;
         
     }
-
-    section {
-        padding-bottom:58px;
-    }
     
 
 
@@ -354,10 +353,9 @@ body {
 
     .partner_ul {
         max-width:926px;
-        align-items:flex-start;
     }
 
-    
+    .header {}
 
         
 
@@ -366,4 +364,22 @@ body {
 }
 
 
+ */
 
+
+
+ @media screen and (min-width: 768px) {
+    .navs {
+        margin: 0;
+    }
+
+    .site-logo {
+        margin: 0;
+        line-height: 66px;
+    }
+    .row {
+        display:flex;
+        justify-content: space-between;
+        flex-flow:row-reverse;
+    }
+ }
