@@ -41,7 +41,7 @@ body {
             justify-content: space-between;
 }
 
-.site-logo {
+.page-head__site-logo {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
@@ -77,7 +77,7 @@ body {
     margin-bottom: 130px;
 }
 
-.page-nav {
+.page-head__page-nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -133,7 +133,7 @@ outline:none;}
     background-color: #f38181;
 }
 
-.title {
+.main_content__title {
     font-size: 24px;
     color: #333333;
     display: -webkit-box;
@@ -149,7 +149,7 @@ outline:none;}
     margin-bottom: 20px;
 }
 
-.about {
+.main_content__about {
     font-size: 30px;
     color: #333333;
     display: -webkit-box;
@@ -169,7 +169,7 @@ outline:none;}
     line-height: 50px;
 }
 
-.about::after {
+.main_content__about::after {
     content: "";
     border: solid 4px red;
     display: table;
@@ -195,7 +195,7 @@ outline:none;}
         flex-flow: wrap;
 }
 
-.content {
+.icons-set__content {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -212,7 +212,7 @@ outline:none;}
 
 }
 
-.content svg {
+.icons-set__content svg {
     width: 34px;
     fill: #95e1d3;
     
@@ -232,7 +232,7 @@ outline:none;}
 
 }
 
-.title-wrapper {}
+
 
 .specialists {
     display: -webkit-box;
@@ -367,7 +367,7 @@ outline:none;}
 }
 
 
-.button {
+.last-field__button {
     width: 155px;
     height: 40px;
 }
@@ -502,7 +502,7 @@ outline:none;}
 
 .page_footer {}
 
-.button {
+.last-field__button {
     width: 150px;
     height: 40px;
     background-color: #95e1d3;
@@ -510,7 +510,7 @@ outline:none;}
     padding: 0;
 }
 
-.input {
+.last-field__input {
     width: 230px;
     height: 40px;
     margin-right: 0px;
@@ -531,49 +531,49 @@ outline:none;}
 
 }
 
-.outro {
+.last-field__outro {
     text-align: center;
     width: 300px;
     height: 15px;
 }
 
-.word {
+.last-field__word {
     color: red;
     margin-left: 5px;
 }
 
-.form {
+.last-field__form {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-bottom: 20px;
 }
 
-.name {
+.specialists__info_name {
     color: #333333;
     font-size: 14px;
     margin-top: 30px;
 }
 
-.profession {
+.specialists__info_profession {
     color: #9f9f9f;
     font-size: 15px;
     margin-top: 18px;
 }
 
-.team_description {
+.team__team_description {
     text-align: center;
     font-size: 15px;
     color: #9f9f9f;
 
 }
 
-.icon-discription {
+.text__icon-discription {
     font-size: 15px;
     color: #999999;
 }
 
-.icon-name {
+.text__icon-name {
     font-size: 14px;
     color: #333333;
     margin-bottom: 20px;
@@ -598,7 +598,7 @@ outline:none;}
     color: white;
 }
 
-.template {
+.main_board__template {
     font-size: 72px;
     color: white;
     text-align: center;
@@ -606,13 +606,13 @@ outline:none;}
     font-weight: normal;
 }
 
-.welcome {
+.main_board__welcome {
     font-size: 150px;
     color: white;
     text-align: center;
 }
 
-.header-button {
+.main_board__header-button {
     text-decoration: none;
     color: white;
     border: solid 2px white;
@@ -646,6 +646,6 @@ outline:none;}
     background:#f38181;
 }
 
-.title_wrapper {margin-bottom:90px;
+.team__title_wrapper {margin-bottom:90px;
 
 }
