@@ -26,6 +26,28 @@ body {
 
 }
 
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat/montserrat-v12-latin-700.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../fonts/Montserrat/montserrat-v12-latin-regular.woff2") format("woff2");
+}
+
+
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/Roboto/roboto-v18-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/Roboto/roboto-v18-latin-300.woff2") format("woff2");
+}
+
 
 
 .page-head {
@@ -55,6 +77,8 @@ body {
     font-size: 30px;
     text-decoration: none;
     margin-top: 30px;
+    font-family: 'Montserrat';
+    font-weight:700;
 }
 
 
@@ -92,6 +116,8 @@ body {
     text-decoration: none;
     color: #ffffff;
     position: relative;
+    font-family: 'Montserrat';
+    font-weight:400;  
 }
 
 .site-navigation__icon {
@@ -147,6 +173,7 @@ outline:none;}
         -ms-flex-pack: center;
             justify-content: center;
     margin-bottom: 20px;
+    font-family: 'KaushanScript';
 }
 
 .main_content__about {
@@ -167,6 +194,8 @@ outline:none;}
     text-transform: uppercase;
     text-align: center;
     line-height: 50px;
+    font-family: 'Montserrat';
+    font-weight:700;
 }
 
 .main_content__about::after {
@@ -370,6 +399,9 @@ outline:none;}
 .last-field__button {
     width: 155px;
     height: 40px;
+    color:white;
+    font-family: 'Motserrat';
+    font-weight:700;
 }
 
 .specialists-info__buttons {
@@ -515,6 +547,9 @@ outline:none;}
     height: 40px;
     margin-right: 0px;
     border-right: none;
+    font-size:14px;
+    font-family: 'Montserrat';
+    font-weight:400;
 }
 
 .last-field {
@@ -535,11 +570,17 @@ outline:none;}
     text-align: center;
     width: 300px;
     height: 15px;
+    font-size:14px;
+    font-family: 'Montserrat';
+    font-weight:400;
 }
 
 .last-field__word {
     color: red;
     margin-left: 5px;
+    font-size:14px;
+    font-family: 'Montserrat';
+    font-weight:400;
 }
 
 .last-field__form {
@@ -553,32 +594,45 @@ outline:none;}
     color: #333333;
     font-size: 14px;
     margin-top: 30px;
+    font-family: 'Montserrat';
+    font-weight:400;
+    text-transform: uppercase;
 }
 
 .specialists__info_profession {
     color: #9f9f9f;
     font-size: 15px;
     margin-top: 18px;
+    font-family: 'Roboto';
+    font-style: 'Italic';
+    font-weight:300;
 }
 
 .team__team_description {
     text-align: center;
     font-size: 15px;
     color: #9f9f9f;
-    margin-bottom:95px;
-
+    margin-bottom:92px;
+    font-family: 'Roboto';
+    font-weight:400;
 
 }
 
 .text__icon-discription {
     font-size: 15px;
     color: #999999;
+    font-family: 'Roboto';
+    font-weight:400;
 }
 
 .text__icon-name {
     font-size: 14px;
     color: #333333;
     margin-bottom: 20px;
+    font-family: 'Montserrat';
+    font-weight:400;
+    text-transform:uppercase;
+
 
 }
 
@@ -612,6 +666,7 @@ outline:none;}
     font-size: 150px;
     color: white;
     text-align: center;
+    font-family: 'Montserrat';
 }
 
 .main_board__header-button {
@@ -637,6 +692,13 @@ outline:none;}
     background-color:inherit;
     z-index:1;
 
+}
+
+.site-navigation__link {
+    font-family: 'Montserrat';
+    font-weight:400;
+    text-transform: uppercase;
+    font-size:14px;
 }
 
 .iconz .site-navigation__link:hover::after {
